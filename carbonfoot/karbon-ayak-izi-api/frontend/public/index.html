@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Karbon Ayak İzi Hesaplama</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Karbon Ayak İzi Hesaplama</h1>
+        <form id="carbonFootprintForm">
+            <label for="electricity_consumption">Elektrik Tüketimi (kWh):</label>
+            <input type="number" id="electricity_consumption" required>
+
+            <label for="car_travel">Araba ile Seyahat (km):</label>
+            <input type="number" id="car_travel" required>
+
+            <label for="public_transport">Toplu Taşıma (km):</label>
+            <input type="number" id="public_transport" required>
+
+            <label for="air_travel">Hava Yolu Seyahati (km):</label>
+            <input type="number" id="air_travel" required>
+
+            <label for="water_consumption">Su Tüketimi (litre):</label>
+            <input type="number" id="water_consumption" required>
+
+            <label for="waste_production">Atık Üretimi (kg):</label>
+            <input type="number" id="waste_production" required>
+
+            <label for="recycling_plastic">Geri Dönüşüm (Plastik, kg):</label>
+            <input type="number" id="recycling_plastic" value="0">
+
+            <label for="recycling_metal">Geri Dönüşüm (Metal, kg):</label>
+            <input type="number" id="recycling_metal" value="0">
+
+            <button type="submit">Hesapla</button>
+        </form>
+
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

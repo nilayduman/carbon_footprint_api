@@ -1,0 +1,33 @@
+.user-profile {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.loading {
+  font-size: 18px;
+  color: #666;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.error {
+  color: #ff4d4d; /* Hata için kırmızı ton */
+  background-color: #ffe6e6; /* Hafif arka plan */
+  padding: 10px;
+  border: 1px solid #ff4d4d;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.success {
+  color: #4caf50; /* Başarı için yeşil ton */
+  background-color: #e8f5e9; /* Hafif arka plan */
+  padding: 10px;
+  border: 1px solid #4caf50;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+   
